@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+<script>
+    const cingarro = Number(prompt("Quantos cigarros você fuma por dia ?"))
+    const anos = Number(prompt("Quantos anos você fuma ?"))
+    const tempo = 10 // minutos perdidos
+    const cigarroanos = 365 // dias
+    const minutosp = 60 // minutos
+    const horasp = 24 // horas perdidas de um dia
+    const totalcigarro = cingarro * cigarroanos * anos
+    const tempoperdido = totalcigarro * tempo
+    const temporoubado = tempoperdido / (60 * 24)
+    alert (`Você perdeu ${temporoubado.toFixed(0)} dias.`)
+</script>
