@@ -1,0 +1,10 @@
+<meta charset="UTL-8">
+<Script>
+    const horast = Number(prompt("Horas trabalhadas no mês?"))
+    const valorp = Number(prompt("Quanto você recebe por hora?"))
+    const desc = 10/100
+    const salariob = horast * valorp
+    const desconto = salariob * desc
+    const salariol = salariob - desconto
+    alert (`Horas trabalhadas: ${horast.toFixed(0)} \n Desconto R$: ${desconto.toFixed(0)} \n salario liquido R$: ${salariol.toFixed(0)}`)
+</Script>
